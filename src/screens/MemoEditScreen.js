@@ -8,7 +8,7 @@ class MemoEditScreen extends React.Component {
       <View style={styles.container}>
         <TextInput style={styles.memoEditInput} multiline value="Hi" />
 
-        <CircleButton color="white" style={styles.editButton} name="check" />
+        <CircleButton name="check" />
 
       </View>
     );
